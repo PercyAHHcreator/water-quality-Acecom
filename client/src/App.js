@@ -1,6 +1,7 @@
 
 
 import './App.css';
+import { Boton } from './components/Boton';
 import { LeftColumn } from './components/LeftColumn';
 import { MediumColumn } from './components/MediumColumn';
 import { RightColumn } from './components/RightColumn';
@@ -8,7 +9,6 @@ import { RightColumn } from './components/RightColumn';
 
 
 function App() {
-
 
   return (
     <div>
@@ -24,7 +24,6 @@ function App() {
     <div className='dashboard'>
       <LeftColumn/>
       <MediumColumn/>
-      
       <RightColumn/>
     </div>
     </div>

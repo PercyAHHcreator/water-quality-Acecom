@@ -4,11 +4,12 @@
 body{
     background-color: black;
     font-family: 'Trebuchet MS', Roboto, Ubuntu, sans-serif;
+    color: white;
 }
 header{
     
     top:0; left: 0; right: 0;
-    background-color: black;
+    
     padding: 1rem ;
     display: flex;
     align-items: center;
@@ -18,7 +19,6 @@ header{
     
 }
 .logo{
-    color: white;
     font-size: 2.5rem;
     font-weight: bold;
 }
@@ -34,24 +34,24 @@ header{
     width: 15%;
     background: linear-gradient(var(--blue), #1D1D1D, #000000);
     margin: 1rem;
-    
-    border-radius: 35px;
-}
-.barra-iconos .icon{
-    color: var(--blue);
     display: flex;
     justify-content: center;
-    align-items: center;
+    border-radius: 35px;
+}
+.barra-iconos .boton-darkMode{
+    margin-top: 1rem;
 
 }
+
 .barra-medio{
     margin: 1rem;
     width: 65%;
     color: white;
     
 }
-.barra-medio .chart{
-    background-color: var(--blue);
+.barra-medio .graficas{
+    background-color: linear-gradient(var(--blue), #1D1D1D, #000000);
+
 }
 
 
