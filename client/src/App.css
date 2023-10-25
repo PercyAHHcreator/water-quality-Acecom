@@ -1,0 +1,57 @@
+:root{
+    --blue: #0D1F51;
+}
+body{
+    background-color: black;
+    font-family: 'Trebuchet MS', Roboto, Ubuntu, sans-serif;
+}
+header{
+    
+    top:0; left: 0; right: 0;
+    background-color: #fff;
+    padding: 1rem ;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1;
+    height: 3rem;
+    
+}
+.logo{
+    background-color: aliceblue;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.logo .icons{
+    justify-content: space-between;
+    
+}
+.dashboard{
+    display: flex;
+    z-index: -1;
+}
+.barra-iconos{
+    width: 15%;
+    background: linear-gradient(var(--blue), #1D1D1D, #000000);
+    margin: 1rem;
+    margin-top: 1.5rem;
+    border-radius: 35px;
+}
+.barra-iconos .icon{
+    color: var(--blue);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.barra-medio{
+    margin-top: 1.5rem;
+    width: 65%;
+    background-color: aqua;
+}
+.barra-medio .chart{
+    background-color: var(--blue)
+}
+
+
+
