@@ -1,4 +1,5 @@
 
+
 import './App.css';
 import { LeftColumn } from './components/LeftColumn';
 import { MediumColumn } from './components/MediumColumn';
@@ -7,10 +8,12 @@ import { RightColumn } from './components/RightColumn';
 
 
 function App() {
+
+
   return (
     <div>
       <header >
-      <p className='logo'> MyLogo</p>
+      <p className='logo'>Water Quality</p>
       
 
       <div className='icons'>
@@ -21,6 +24,7 @@ function App() {
     <div className='dashboard'>
       <LeftColumn/>
       <MediumColumn/>
+      
       <RightColumn/>
     </div>
     </div>
